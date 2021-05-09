@@ -6,9 +6,9 @@ CC = $(LLVM_PATH)clang
 CFLAGS = -O0 -g -Wall -Werror -std=gnu99
 
 # Path to LLVM binaries
-LLVM_PATH = /usr/local/depot/llvm-7.0/bin/
-ifneq (,$(wildcard /usr/lib/llvm-7/bin/))
-  LLVM_PATH = /usr/lib/llvm-7/bin/
+LLVM_PATH = /usr/local/depot/llvm-10/bin/
+ifneq (,$(wildcard /usr/lib/llvm-10/bin/))
+  LLVM_PATH = /usr/lib/llvm-10/bin/
 endif
 
 # Targets to compile
