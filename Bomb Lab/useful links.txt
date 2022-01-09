@@ -1,1 +1,2 @@
 x command: https://visualgdb.com/gdbreference/commands/x
+fs register: https://stackoverflow.com/questions/10325713/why-does-this-memory-address-fs0x28-fs0x28-have-a-random-value
